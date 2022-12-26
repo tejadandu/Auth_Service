@@ -70,8 +70,10 @@ const isAuthenticated = async (req, res) => {
     }
 }
 
+
 module.exports = {
     create,
     signIn,
-    isAuthenticated
+    isAuthenticated,
+
 }

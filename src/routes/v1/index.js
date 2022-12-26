@@ -15,7 +15,7 @@ router.post('/signin',
     );
 
 router.get('/isAuthenticated', UserController.isAuthenticated);
-
+// router.get('/isEmailverified', UserController.isEmailVerified);
 
 
 module.exports = router;
